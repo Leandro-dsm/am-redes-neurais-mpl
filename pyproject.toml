@@ -1,0 +1,29 @@
+[project]
+name = "am-redes-neurais-mpl"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Leandro-dsm", email = "leandrosueoka@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "joblib>=1.6.0",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "pandas>=3.0.6",
+    "scikit-learn>=1.9.1",
+    "tensorflow>=2.22.0rc0",
+]
+
+[project.scripts]
+am-redes-neurais-mpl = "am_redes_neurais_mpl:main"
+
+[build-system]
+requires = ["uv_build>=0.12.5,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "notebook>=7.6.3",
+]

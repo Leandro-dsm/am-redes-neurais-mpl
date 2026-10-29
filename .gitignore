@@ -1,0 +1,41 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Notebooks
+.ipynb_checkpoints/
+
+# Modelos treinados (pesos, checkpoints)
+models/
+*.h5
+*.keras
+*.pt
+*.pth
+*.pkl
+*.onnx
+*.joblib
+
+# Dados / artefatos locais
+data/
+*.log
+*.csv
+*.parquet
+!requirements*.csv
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
